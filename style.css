@@ -1,0 +1,14 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  flex: 0 1 48%;
+  margin-bottom: 20px; /* Adjust as needed */
+}
+@media (max-width: 768px) {
+  .card {
+    flex-basis: 100%;
+  }
+}
